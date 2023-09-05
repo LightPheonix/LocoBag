@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #myButton {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <button id="myButton">Button</button>
+
+  <script>
+    const button = document.getElementById('myButton');
+
+    button.addEventListener('click', function() {
+      button.textContent = 'Button clicked!';
+      button.style.fontSize = '20px';
+
+      setTimeout(function() {
+        button.textContent = 'Button';
+        button.style.fontSize = '16px';
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
