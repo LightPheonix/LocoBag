@@ -3,34 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Local Bag Store</title>
+    <title>Professional Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Local Bag Store</h1>
         <nav>
+            <div class="logo">Your Company Logo</div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section class="product">
-            <img src="bag.jpg" alt="Local Bag">
-            <h2>Local Bag</h2>
-            <p class="price">$50.00</p>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget ante at enim laoreet accumsan.</p>
-            <button>Add to Cart</button>
-        </section>
-    </main>
+    <section id="home" class="hero">
+        <h1>Welcome to Our Professional Website</h1>
+        <p>Your source for professional solutions.</p>
+        <a href="#contact" class="cta-button">Contact Us</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel purus eget dolor vehicula aliquet.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Service 1</li>
+            <li>Service 2</li>
+            <li>Service 3</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
     <footer>
-        <p>&copy; 2023 Local Bag Store</p>
+        <p>&copy; 2023 Your Company Name</p>
     </footer>
 </body>
 </html>
