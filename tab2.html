@@ -1,81 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Store</title>
-        <meta charset="utf-8" />
-        <link href="navigation.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body class="tab1-bkg">
+<head>
+    <meta charset="utf-8">
+    <title>Store</title>
+    <link rel="stylesheet" type="text/css" href="navigation.css">
+    <link rel="stylesheet" type="text/css" href="body.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: rgb(236, 228, 208);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .navbar {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Anton', Arial, sans-serif;
+            font-size: 36px;
+            color: #333;
+        }
+
+        .sale-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .sale-images img {
+            width: 250px;
+            height: 300px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            transition: transform 0.3s ease;
+        }
+
+        .sale-images img:hover {
+            transform: scale(1.05);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .fa {
+            color: #fff;
+            font-size: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
         <nav class="mainmenu">
             <div class="logo">
-                <img src="https://cdn.discordapp.com/attachments/899934333362667520/976393483302633552/Screenshot_2022-05-18_at_09.56.03.png" width="80px" height="80px">
-                </div>
+                <img src="https://cdn.discordapp.com/attachments/899934333362667520/976393483302633552/Screenshot_2022-05-18_at_09.56.03.png" alt="Logo">
+            </div>
             <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="tab2.html">Store</a></li>
                 <li><a href="tab4.html">SALE</a></li>
                 <li><a href="tab5.html">About Us</a></li>
-                <li><a href="tab6.html">Discount</a></li>
             </ul>
         </nav>
+    </header>
 
-        <head>
-    
-            <link rel="stylesheet" type="text/css" href="body.css">
-            <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-            
-            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@400;500;600&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-            </head>
-            <body style="background-color:rgb(236, 228, 208);">
-                <header>
-                    <nav>
-                        <ul>
-  
-                            <li><a href="#"><i class="fa fa-search"></i></a></li>
-                            </ul>
-                            </nav>
+    <div class="content">
+        <h1>Welcome to Our Store</h1>
+        <h2>Check out our latest products:</h2>
 
+        <div class="sale-images">
+            <img src="https://cdn.discordapp.com/attachments/899934333362667520/979429100198436926/unknown.png" alt="Product 1">
+            <img src="https://cdn.discordapp.com/attachments/899934333362667520/979429526239051856/unknown.png" alt="Product 2">
+            <img src="https://cdn.discordapp.com/attachments/899934333362667520/979429914983927908/unknown.png" alt="Product 3">
+            <img src="https://cdn.discordapp.com/attachments/899934333362667520/979430259957043270/unknown.png" alt="Product 4">
+            <img src="https://cdn.discordapp.com/attachments/899934333362667520/979432143145029662/unknown.png" alt="Product 5">
+            <img src="https://cdn.discordapp.com/attachments/899934333362667520/979452070618865735/unknown.png" alt="Product 6">
+            <img src="https://cdn.discordapp.com/attachments/899934333362667520/979452799408554114/unknown.png" alt="Product 7">
+            <img src="https://cdn.discordapp.com/attachments/899934333362667520/979453393682694164/unknown.png" alt="Product 8">
+            <img src="https://cdn.discordapp.com/attachments/899934333362667520/979453672524218498/unknown.png" alt="Product 9">
+            <img src="https://cdn.discordapp.com/attachments/899934333362667520/979454242291073054/unknown.png" alt="Product 10">
+            <img src="https://cdn.discordapp.com/attachments/899934333362667520/979455210667782164/unknown.png" alt="Product 11">
+            <img src="https://cdn.discordapp.com/attachments/899934333362667520/979455398807502938/unknown.png" alt="Product 12">
+        </div>
+    </div>
 
-
-
-
-<form action="error.html">
-<input type="image" src="https://cdn.discordapp.com/attachments/899934333362667520/979429100198436926/unknown.png" width="250" height="300">
-<input type="image" src="https://cdn.discordapp.com/attachments/899934333362667520/979429526239051856/unknown.png" width="250" height="300">
-<input type="image" src="https://cdn.discordapp.com/attachments/899934333362667520/979429914983927908/unknown.png" width="250" height="300">
-<input type="image" src="https://cdn.discordapp.com/attachments/899934333362667520/979430259957043270/unknown.png" width="250" height="300"> 
-<input type="image" src="https://cdn.discordapp.com/attachments/899934333362667520/979432143145029662/unknown.png" width="250" height="300">
-<input type="image" src="https://cdn.discordapp.com/attachments/899934333362667520/979452070618865735/unknown.png" width="250" height="300">
-<input type="image" src="https://cdn.discordapp.com/attachments/899934333362667520/979452799408554114/unknown.png" width="250" height="300">
-<input type="image" src="https://cdn.discordapp.com/attachments/899934333362667520/979453393682694164/unknown.png" width="250" height="300"> 
-<input type="image" src="https://cdn.discordapp.com/attachments/899934333362667520/979453672524218498/unknown.png" width="250" height="300">
-<input type="image" src="https://cdn.discordapp.com/attachments/899934333362667520/979454242291073054/unknown.png" width="250" height="300">
-<input type="image" src="https://cdn.discordapp.com/attachments/899934333362667520/979455210667782164/unknown.png" width="250" height="300">
-<input type="image" src="https://cdn.discordapp.com/attachments/899934333362667520/979455398807502938/unknown.png" width="250" height="300"> 
-</form>
-<style>     
-
-form input[type="image"] {
-  border: none;
-  outline: none;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-form input[type="image"]:hover {
-  transform: scale(1.05);
-}
-    
-</style>
-
-<footer class="footer">
-    <p>All rights reserved - &#169; Copyright</p>
+    <footer class="footer">
+        <p>All rights reserved - &#169; Copyright</p>
+        <a href="https://www.youtube.com/watch?v=QoO6vh0rB2c&t" class="fa fa-youtube"></a>
+        <a href="https://i.redd.it/vtxso7lim9g71.jpg" class="fa fa-twitter"></a>
     </footer>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <a href="https://www.youtube.com/watch?v=QoO6vh0rB2c&t" class="fa fa-youtube"></a>
-    <a href="https://i.redd.it/vtxso7lim9g71.jpg" class="fa fa-twitter"></a>
-
-
+</body>
 </html>
